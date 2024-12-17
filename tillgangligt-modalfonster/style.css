@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#accessibleModal {
+    background-color: lightblue;
+    color: rgb(16, 58, 72);
+    padding: 20px 10px;
+    width: 25%;
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;  
+}
+
+#openModalBtn {
+    background-color: lightblue;
+    color: rgb(16, 58, 72);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#closeModalBtn {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+

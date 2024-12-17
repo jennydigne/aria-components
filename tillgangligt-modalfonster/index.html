@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tillgängligt modalfönster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="accessibleModal" aria-labelledby="modalTitle" aria-describedby="modalDescription" hidden>
+        <h2 id="modalTitle">Exempel på modalfönster</h2>
+        <p id="modalDescription">Här är lite text i modalfönstret.</p>
+        <button id="closeModalBtn">Stäng</button>
+    </div>
+    <button id="openModalBtn" aria-expanded="false" aria-haspopup="true">Öppna</button>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
+

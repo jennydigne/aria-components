@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tillgängligt modalfönster med dialog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <dialog id="accessibleDialog">
+            <h2>Exempel på tillgängligt modalfönster med &lt;dialog&gt;</h2>
+            <p>Här är innehållet i modalfönstret.</p>
+            <button id="closeDialogBtn">Stäng</button>
+        </dialog>
+        <button id="openDialogBtn">Öppna</dialog></button>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
+
+
+<!-- Fördelen med att använda modalfönster med <dialog> är att det har inbyggd tillgänglighet,
+vilket innebär att man som utvecklare inte behöver tänka lika mycket på att till exempel lägga till aria-attribut
+för att öka tillgängligheten. -->
